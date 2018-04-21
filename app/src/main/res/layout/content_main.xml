@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/WeightGoalLabel"
+        android:layout_width="357dp"
+        android:layout_height="39dp"
+        android:text="Weight Goal"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/goalWeightLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goal Weight (lbs)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <EditText
+        android:id="@+id/goalWeightTextBox"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="150"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/DayGoalLabel"
+        android:layout_width="212dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="I want to reach my goal in (# days)"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="180"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/orLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR select a date to meet your goal"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <TextView
+        android:id="@+id/reachGoalLabel"
+        android:layout_width="173dp"
+        android:layout_height="22dp"
+        android:text="I want to reach my goal by"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <EditText
+        android:id="@+id/reachGoalDate"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:text="dd/mm/yyyy"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/ActivityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physical Activity Change (optional)"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="59dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="79dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weightChangeLabel"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="236dp"
+        android:layout_height="39dp"
+        android:text="@string/changeActivityLabel"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Maintenance"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="210dp"
+        android:layout_height="41dp"
+        android:text="@string/maintainGoal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="105dp"
+        android:layout_height="36dp"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="379dp"
+        tools:text="@string/buttonLabel" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="105dp"
+        android:layout_height="36dp"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="451dp"
+        tools:text="@string/buttonLabel" />
+
+</android.support.constraint.ConstraintLayout>

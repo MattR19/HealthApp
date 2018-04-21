@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Health App</string>
+    <string name="action_settings">Settings</string>
+    <string name ="WeightGoalLabel">Weight Goal</string>
+    <string name = "weightChangeLabel">Weight Change Phase</string>
+    <string name="changeActivityLabel">To reach my goal, I will change my physical activity by %</string>
+    <string name="Maintenance">Goal Maintenance Phase</string>
+    <string name="maintainGoal">To maintain my goal, I will change my physical activity by %</string>
+    <string name="buttonLabel">Calculate</string>
+</resources>
